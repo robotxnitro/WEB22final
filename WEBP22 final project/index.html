@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="index.css">
+    <title>Final project</title>
+    <style>
+       
+    </style>
+</head>
+<body>
+
+   
+
+    <div id="display">
+        <div class="toolbar">
+            <div class="colorIcon">
+                <button type="button" value="#0000ff"></button>
+                <button type="button" value="#ff0000"></button>
+                <button type="button" value="#ffe600"></button>
+                <button type="button" value="#e100ff"></button>
+                <button type="button" value="#ff00d4"></button>
+                <button type="button" value="#000000"></button>
+                <button type="button" value="#ffffff"></button>
+                    
+
+
+                
+                <div class = slider>
+
+                    <input type="range" orient="vetical" class="size" min="1" max="50" value="1">
+                    <label class="range"></label>
+            
+                </div>
+            </div>
+            <div class="erase">
+                <input type="image" src="assets/eraser.jpg" width="50px" />
+            </div>
+            <button type="button" class="clear">clear</button>
+            <button type="button" class="save">save</button>
+           
+
+        </div>
+        <canvas class="drawingBoard" width="500px" height="1000px"></canvas>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

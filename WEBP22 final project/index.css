@@ -1,0 +1,83 @@
+body {
+	background: #3774a8;
+	font-family:courier;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+
+
+#display{
+            
+    width: 600px;
+    border: 1px solid rgb(255, 5, 5);
+    margin: 0 auto;
+    display: flex;
+    
+}
+.drawingBoard{
+    border: 1px rgb(195, 0, 255) solid;
+    display: block;
+    
+    
+}
+.toolbar{
+    background-color: #ffffff;
+    text-align: left;
+    border: 1px solid grey;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+.colorIcon{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.colorIcon button{
+    display: inline-block;
+    border: 1px solid #00000026;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+.colorIcon button:nth-of-type(1) {
+    background-color: #0000ff;
+}
+.colorIcon button:nth-of-type(2) {
+    background-color: #ff0000;
+}
+.colorIcon button:nth-of-type(3) {
+    background-color: #ffe600;
+}
+.colorIcon button:nth-of-type(4) {
+    background-color: #e100ff;
+}
+.colorIcon button:nth-of-type(5) {
+    background-color: #ff00d4;
+}
+.colorIcon button:nth-of-type(6) {
+    background-color: #000000;
+}
+.colorIcon button:nth-of-type(7) {
+    background-color: #ffffff;
+}
+.slider{
+    -webkit-appearance: slider-vertical;
+      
+}
+
+.erase{
+    text-align: center;
+}
+
+.clear{
+    height: 50px;
+    width: 50px;
+    margin-top: 180%;
+}
+.save{
+    height: 50px;
+    width: 50px;
+}
+
+
